@@ -21,6 +21,10 @@ npm install -g jshint
 # See: http://nodejs.org/api/repl.html#repl_repl
 sudo apt-get install -y rlwrap
 
+# Install python-software-properties
+# Required on Ubuntu 12.04.3 LTS to run apt-add-repository
+sudo apt-get install -y python-software-properties
+
 # Install emacs24
 # https://launchpad.net/~cassou/+archive/emacs
 sudo apt-add-repository -y ppa:cassou/emacs
